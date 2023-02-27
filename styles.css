@@ -1,0 +1,124 @@
+#body {
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+    font-family: 'Libre Baskerville', serif;
+
+}
+* {
+    /* border: solid yellow; */
+}
+ul{
+    list-style-type:none;
+    padding-top: 0.2em;
+
+}
+li {
+    display: inline; 
+    padding-right: 20px;
+    padding-top: 40px;
+
+    justify-content: space-between; 
+    /* font-family: 'IBM Plex Mono', monospace; */
+
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.main-div {
+    height: 250px;
+    width: 250px;
+    background-color: orange;
+}
+.logo-box {
+    display: flex;
+    
+}
+
+.logo-text {
+    font-size: xx-small;
+    align-self: center;
+    font-weight: bold;
+    padding-left: 1em;
+}
+.logo {
+    height: 5rem;
+    width: 5rem;
+}
+header {
+display: flex; 
+justify-content: space-between;
+padding-left: 20px;
+padding-right: 20px;
+/* position: fixed; */
+/* background-color: black; */
+}
+
+main {
+    display: flex;
+}
+section {
+    position: relative;
+    height: 70vh;
+    width: 50vw;
+    overflow: wrap;
+    text-align: center;
+}
+.learn-img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+}
+.container {
+    height: 100%;
+    overflow-y: hidden ;
+
+}
+
+.hero-img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+}
+
+button { position: absolute;
+    top:50%;
+    background-color: #FFD700;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em  #14100998 ;
+    color: rgb(12, 12, 12);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 5rem;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    left: 35%;
+    font-family: 'Libre Baskerville', serif;
+}
+.text{
+    position : absolute;
+    top:30%;
+    left: 10%;
+    font-size: 2rem;
+
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.learn-text {
+  left: 20%;
+
+}
